@@ -1,0 +1,109 @@
+body { 
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: 'Ubuntu', sans-serif;
+	vertical-align: baseline;
+
+	background-color: black;
+}
+
+ol, ul {
+	list-style: none;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 2em;
+
+}
+
+a:hover, a:visited {
+	text-decoration: none;
+	color: #ffc907;
+	font-weight: 600;
+}
+a:visited {color:#e5e5e5;}
+
+
+li {
+	border-radius: 2px;
+	border: 3px solid #FFF;
+	background-color: rgba(24, 48, 94, 0.6);
+	display: inline-block;
+	margin: 5px;
+	width: 180px;
+	height: 250px;
+
+	text-align: center;
+	vertical-align: middle;
+}
+
+a:hover li {
+	border: 3px solid #ffc907;
+}
+
+.col-md-12 {
+	width: 100%;
+	text-align: center;
+}
+.container{width: 100%;}
+
+p {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+h1 {
+	color: #051c23;
+	font-weight: 600;
+	padding: 10px 0;
+	font-size: 225px;
+	position: fixed;
+}
+
+span {
+	color: #ffc907;
+}
+
+img {	
+	width: 174px;
+	height: 244px;
+}
+
+.btn-info {
+	margin-top: 30px;
+	background-color: #0e4c5f;
+}
+
+.modal.in .modal-dialog{ 
+	width: 1000px;
+}
+
+.droppable {
+	width: 90%;
+	
+	min-height: 200px;
+	background-color: #0e4c5f;
+	margin: 20px;
+	border-radius: 10px;
+	border: 3px solid #269abc;
+	padding: 0 20px;
+}
+
+.glyphicon-heart {
+	color: #ef1465;	
+}
+
+.droppable h2 {
+	color:cyan;
+}
+
+.droppable img {
+	width: 120px;
+	height: auto;
+	padding: 2px;
+}
